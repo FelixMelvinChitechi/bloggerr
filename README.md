@@ -4,19 +4,23 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `blogger` to your list of dependencies in `mix.exs`:
+To make this installation to run and work after unzipping and you are the current directory of the folder terminal
 
-```elixir
-def deps do
-  [
-    {:blogger, "~> 0.1.0"}
-  ]
-end
+run the following command to install dependencies
+
+```
+  mix deps.get
+
+```
+then the following to build
+```
+mix escript.build
+
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/blogger](https://hexdocs.pm/blogger).
+then use the following command to run the application
 
-# elix
+```
+iex -S mix 
+
+```
